@@ -47,4 +47,4 @@ if st.button("Predict"):
     prediction = model.predict(input_df)[0]
     prediction_text = "⚠️ Pest Attack Likely!" if prediction == 1 else "✅ No Pest Attack"
     st.subheader("Prediction Result")
-    st.success(prediction_text
+    st.success(prediction_text)
