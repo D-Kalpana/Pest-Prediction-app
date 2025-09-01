@@ -14,7 +14,7 @@ temperature = st.number_input("🌡️ Temperature (°C)", min_value=0.0, max_va
 rainfall    = st.number_input("💧 Rainfall (mm)",     min_value=0.0, max_value=500.0, value=50.0, step=0.1)
 humidity    = st.number_input("🌫️ Humidity (%)",     min_value=0.0, max_value=100.0, value=60.0, step=0.1)
 crop        = st.selectbox("🌱 Crop Type", ["Wheat", "Rice", "Cotton", "Maize"])
-season      = st.selectbox("🗓️ Season",   ["Kharif", "Rabi", "Zaid"])
+season      = st.selectbox("🗓️ Season",   ["Rainy", "summer", "winter"])
 
 # === Prepare DataFrame ===
 input_data = pd.DataFrame({
