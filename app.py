@@ -31,4 +31,4 @@ if st.button("🔮 Predict Pest Risk"):
     if pred == 1:
         st.error("⚠️ High Risk of Pest Attack! Take Preventive Action.")
     else:
-        st.success("✅ Low Risk of Pest Attack. Safe for now."
+        st.success("✅ Low Risk of Pest Attack. Safe for now.")
